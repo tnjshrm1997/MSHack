@@ -15,8 +15,8 @@
 	  src="https://code.jquery.com/jquery-3.3.1.min.js"
 	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 	  crossorigin="anonymous"></script>
-<script type="text/javascript" src="{{url_for('static' ,filename='js/gurgaon-milk-collector-locations.json')}}"></script>
-
+		<script src="https://apis.mapmyindia.com/advancedmaps/v1/fcpidzcdwht4rjvlivky8ywsuntsv5rm/map_load?v=0.1"></script>
+		<script src="https://www.mapmyindia.com/api/Leaflet.Editable.js"></script>
 
 <!-- END HEADER FIRST PART -->
 
@@ -39,43 +39,16 @@
 		  	document.cookie = "cookie=1; expires=Thu, 18 Dec 2031 12:00:00 UTC";
 		}
 	</script> -->
-</head>
-<body>
-	<script src="https://apis.mapmyindia.com/advancedmaps/v1/4zjmxhenatyyxw8vc5xi5pee8pgu4b3j
-/map_load?v=0.1"></script>
+
+		<script src="https://apis.mapmyindia.com/advancedmaps/v1/fcpidzcdwht4rjvlivky8ywsuntsv5rm/map_load?v=0.1"></script>
 	<script src="https://www.mapmyindia.com/api/Leaflet.Editable.js"></script>
 
-
-	<div class="top-div">
-	  <span class="top-div-span1">MapmyIndia Maps API: </span>
-	  <span class="top-div-span2">Map Polygon Example</span>
-	</div>
-	<div id="result">
-	  <div class="btn-div"><button id="mapmyindia_geometry_of_green_polygon">Green Polygon Geometry</button></div>
-	  <div class="btn-div"><button id="mapmyindia_create_polygon_noneditable">Non-editable Polygon</button></div>
-	  <div class="btn-div"><button id="mapmyindia_create_polygons_editable"> Editable Polygon</button></div>
-	  <div class="btn-div"><button id="mapmyindia_remove_polygons">Remove Polygon</button></div>
-
-	  <div class="msg-cont">
-	    <ul class="msg-list">
-	      <li>Click anywhere on a polygon to show info window.</li>
-	      <li>Drag the polygon to shift to a new position.</li>
-	      <li>Click on controls to create a polygon,rectangle.</li>
-	      <li>Drag the marker to see if it is under the green polygon or outside.</li>
-	      <li>Control click on the drawn items to remove from map.</li>
-	    </ul>
-	  </div>
-	  <div class="event-header">Event Logs</div>
-	  <div id="event-log"></div>
-	</div>
+</head>
+<body>
 	<div id="map"></div>
 
 
-	<script type="text/javascript" src="{{url_for('static' ,filename='js/main.js')}}"></script>
-	<script>
-
-
-	</script>
+		<script type="text/javascript" src="{{url_for('static' ,filename='js/main.js')}}"></script>
 		</body>
 
 </html>
