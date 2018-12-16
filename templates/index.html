@@ -17,10 +17,28 @@
 	  crossorigin="anonymous"></script>
 		<script src="https://apis.mapmyindia.com/advancedmaps/v1/fcpidzcdwht4rjvlivky8ywsuntsv5rm/map_load?v=0.1"></script>
 		<script src="https://www.mapmyindia.com/api/Leaflet.Editable.js"></script>
+		<script src="https://raw.githubusercontent.com/brian3kb/graham_scan_js/master/graham_scan.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <!-- END HEADER FIRST PART -->
-
-
+<script>
+function getDetails(){
+	var callfunction = document.getElementById('sel1').value;
+	if(callfunction=='Milk Dairy'){
+		dairy();
+		 //document.getElementById('hide').style.visibility = 'hidden';
+		  document.getElementById('hide1').style.visibility = 'visible';
+	}
+	else if(callfunction=='Restaurant'){
+		food();
+		//window.location.href = '/car';
+		document.getElementById('hide2').style.visibility = 'visible';
+		 //document.getElementById('hide').style.visibility = 'hidden';
+	}
+}
+</script>
 <!-- HEADER SECOND PART-->
 
 
@@ -40,15 +58,33 @@
 		}
 	</script> -->
 
+
 		<script src="https://apis.mapmyindia.com/advancedmaps/v1/fcpidzcdwht4rjvlivky8ywsuntsv5rm/map_load?v=0.1"></script>
+	<script src="https://www.mapmyindia.com/api/leaflet.polylineDecorator.js"></script>
+
 	<script src="https://www.mapmyindia.com/api/Leaflet.Editable.js"></script>
 
 </head>
 <body>
+
+	<div id="search-div" style="position:absolute;z-index:100;color:black;">
+		<br><br><br>
+		<div class="form-group">
+			<select class="form-control" id="sel1" >
+ <option value = ''>Select Industry</option>
+ <option>Milk Dairy</option>
+ <option>Restaurant</option>
+</select>
+		    </div>
+				<button type="button" class="btn btn-primary" id="hide"  onclick="getDetails()">Search</button><br><br>
+				<button type="button" class="btn btn-primary" id="hide1" style="visibility:hidden;" onclick="getBoundaries()">Analyze More</button><br><br>
+				<button type="button" class="btn btn-primary" id="hide2" style="visibility:hidden;" onclick="getBoundaries1()">Analyze More</button>
+
+</div>
 	<div id="map"></div>
 
-
-		<script type="text/javascript" src="{{url_for('static' ,filename='js/main.js')}}"></script>
+				<script type="text/javascript" src="{{url_for('static' ,filename='js/main.js')}}"></script>
+					<script type="text/javascript" src="{{url_for('static' ,filename='js/call.js')}}"></script>
 		</body>
 
 </html>

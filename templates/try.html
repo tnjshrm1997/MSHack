@@ -1,0 +1,151 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.1/examples/dashboard/dashboard.css" rel="stylesheet">
+
+
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+
+    </nav>
+<br><br><br><br><br><br>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <span data-feather="home"></span>
+                  Dashboard <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/map">
+                  <span data-feather="file"></span>
+                  View GIS
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <span data-feather="shopping-cart"></span>
+                  View Distribution System
+                </a>
+              </li>
+
+            </ul>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+          </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+            <div id="chart"></div>
+<br><br><br><br>
+              <div id="chart1"></div>
+              <br><br><br><br>
+                            <div id="chart2"></div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+
+    <!-- Graphs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script>
+      let chart = new frappe.Chart( "#chart", { // or DOM element
+    data: {
+      labels: ["12am-3am", "3am-6am", "6am-9am", "9am-12pm",
+      "12pm-3pm", "3pm-6pm", "6pm-9pm", "9pm-12am"],
+
+      datasets: [
+        {
+          name: "Some Data", chartType: 'bar',
+          values: [25, 40, 30, 35, 8, 52, 17, -4]
+        },
+        {
+          name: "Another Set", chartType: 'bar',
+          values: [25, 50, -10, 15, 18, 32, 27, 14]
+        },
+        {
+          name: "Yet Another", chartType: 'line',
+          values: [15, 20, -3, -15, 58, 12, -17, 37]
+        }
+      ],
+
+      yMarkers: [{ label: "Marker", value: 70,
+        options: { labelPos: 'left' }}],
+      yRegions: [{ label: "Region", start: -10, end: 50,
+        options: { labelPos: 'right' }}]
+    },
+
+    title: "My Awesome Chart",
+    type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
+    height: 300,
+    colors: ['purple', '#ffa3ef', 'light-blue'],
+
+    tooltipOptions: {
+      formatTooltipX: d => (d + '').toUpperCase(),
+      formatTooltipY: d => d + ' pts',
+    }
+  });
+
+  let chart1 = new frappe.Chart( "#chart1", {
+    data: {
+        labels: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        datasets: [
+          { name: "Dataset 1", values: [18, 40, 30, 35, 8, 52, 17, -4] },
+          { name: "Dataset 2", values: [30, 50, -10, 15, 18, 32, 27, 14] }
+        ]
+    },
+    type: 'line',
+    height: 240,
+    colors: ['red']
+});
+let chart2 = new frappe.Chart( "#chart2", {
+  data: {
+      labels: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      datasets: [
+        { name: "Dataset 1", values: [18, 40, 30, 35, 8, 52, 17, -4] }
+      ]
+  },
+  type: 'pie',
+  height: 540,
+  colors: ['red']
+});
+
+    </script>
+  </body>
+</html>

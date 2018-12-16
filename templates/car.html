@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+	<meta charset="utf-8">
+
+	<title>Business Analysis</title><meta name="description" content="We are Uncommon: a bunch of rebellious, curious, & passionate people using design to create value." /><meta property="og:title" content="Uncommon | Strategic Design" /><meta property="og:description" content="We are Uncommon: a bunch of rebellious, curious, & passionate people using design to create value." /><meta name="keywords" content="value, insightful, foresightful, responsive, design thinking" />
+	<meta property="og:image" content="../uncommon.jpg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="../favicon-32x32.png">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:200,300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+		<script src="https://apis.mapmyindia.com/advancedmaps/v1/fcpidzcdwht4rjvlivky8ywsuntsv5rm/map_load?v=0.1"></script>
+		<script src="https://www.mapmyindia.com/api/Leaflet.Editable.js"></script>
+		<script src="https://raw.githubusercontent.com/brian3kb/graham_scan_js/master/graham_scan.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- END HEADER FIRST PART -->
+<script>
+function getDetails(){
+	var callfunction = document.getElementById('sel1').value;
+	if(callfunction=='Milk Dairy'){
+		dairy();
+		 //document.getElementById('hide').style.visibility = 'hidden';
+	}
+	else if(callfunction=='Restaurant'){
+		food();
+		 //document.getElementById('hide').style.visibility = 'hidden';
+	}
+}
+</script>
+<!-- HEADER SECOND PART-->
+
+
+<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-MRZ2GMN');</script>
+<!-- End Google Tag Manager -->
+
+	<!-- <script>
+		function show_modal_no_more() {
+			// console.log("entra");
+		  	jQuery('.info-cookie').hide();
+		  	document.cookie = "cookie=1; expires=Thu, 18 Dec 2031 12:00:00 UTC";
+		}
+	</script> -->
+
+		<script src="https://apis.mapmyindia.com/advancedmaps/v1/fcpidzcdwht4rjvlivky8ywsuntsv5rm/map_load?v=0.1"></script>
+<script src="https://www.mapmyindia.com/api/leaflet.polylineDecorator.js"></script>
+
+	<script src="https://www.mapmyindia.com/api/Leaflet.Editable.js"></script>
+</head>
+<body>
+	<div id="search-div" style="position:absolute;z-index:100;color:black;">
+		<br><br><br>
+		<div class="form-group">
+			<select class="form-control" id="sel1" >
+ <option value = ''>Select Industry</option>
+ <option>Milk Dairy</option>
+ <option>Restaurant</option>
+</select>
+		    </div>
+				<button type="button" class="btn btn-primary" id="hide"  onclick="getDetails()">Search</button><br><br>
+				<button type="button" class="btn btn-primary" id="hide1" style="visibility:hidden;" onclick="getBoundaries()">Analyze More</button><br><br>
+				<button type="button" class="btn btn-primary" id="hide2" style="visibility:hidden;" onclick="getBoundaries1()">Analyze More</button>
+
+</div>
+  <div id="map"></div>
+<script>
+var map = null;
+var poly = [];
+var decorator;
+var line;
+var center = new L.LatLng(28.549948, 77.268241);
+var interval = 0;
+var pp = [
+	[19.0760, 72.8777],
+	[18.5204,73.8567],
+	[15.4909,73.8278],
+	[19.0760, 72.8777]
+];
+window.onload = function() {
+
+	map = new MapmyIndia.Map('map', {
+		center: center,
+		editable: true,
+		zoomControl: true,
+		hybrid: true
+	});
+
+	//draw polyline
+	drawCarMarkerOnPolyline();
+}
+
+$(".carPolyLine").click(function() {
+
+});
+
+function drawCarMarkerOnPolyline() {
+	removePolyline();
+	var offset = 0; //intial offset value
+	var w = 14,
+		h = 33;
+	//Polyline css
+	var linecss = {
+		color: '#234FB6',
+		weight: 3,
+		opacity: 1
+	};
+	line = L.polyline(pp, linecss).addTo(map); //add polyline on map
+	decorator = L.polylineDecorator(line).addTo(map); //create a polyline decorator instance.
+
+	//offset and repeat can be each defined as a number,in pixels,or in percentage of the line's length,as a string
+	interval = window.setInterval(function() {
+		decorator.setPatterns([{
+			offset: offset + '%', //Offset value for first pattern symbol,from the start point of the line. Default is 0.
+			repeat: 0, //repeat pattern at every x offset. 0 means no repeat.
+			//Symbol type.
+			symbol: L.Symbol.marker({
+				rotate: true, //move marker along the line. false value may cause the custom marker to shift away from a curved polyline. Default is false.
+				markerOptions: {
+					icon: L.icon({
+						iconUrl: 'http://www.mapmyindia.com/api/advanced-maps/doc/sample/images/car.png',
+						iconAnchor: [w / 2, h / 2], //Handles the marker anchor point. For a correct anchor point [ImageWidth/2,ImageHeight/2]
+						iconSize: [14, 33]
+					})
+				}
+			})
+		}]);
+		if ((offset += 0.03) > 100) //Sets offset. Smaller the value smoother the movement.
+			offset = 0;
+	}, 10); //Time in ms. Increases/decreases the speed of the marker movement on decrement/increment of 1 respectively. values should not be less than 1.
+	poly.push(line);
+	poly.push(decorator);
+	map.fitBounds(line.getBounds());
+
+}
+$(".drawArrowOnPolyline").click(function() {
+	removePolyline();
+	var offset = 0; //intial offset value
+
+	//Polyline css
+	var linecss = {
+		color: '#fd4000',
+		weight: 3,
+		opacity: 1
+	};
+	line = L.polyline(pp, linecss).addTo(map); //add polyline on map
+	decorator = L.polylineDecorator(line).addTo(map); //create a polyline decorator instance.
+	//offset and repeat can be each defined as a number,in pixels,or in percentage of the line's length,as a string
+	interval = window.setInterval(function() {
+		decorator.setPatterns([{
+			offset: offset + "%", //Start first marker from x offset.
+			repeat: 0, //repeat market at every x offset. 0 means no repeat.
+			symbol: L.Symbol.arrowHead({
+				pixelSize: 20, //Size of arrow image
+				headAngle: 60, //Increases/decreases arrow angel. Default is 60.
+				polygon: true, //if set to false an arrow is added else a triangle shape arrow is added. Default is true.
+				pathOptions: {
+					color: '#303030', //arrow color
+					fillOpacity: 0, //0 for no fill
+					weight: 4 // arrow line width
+				}
+			})
+		}]);
+		if ((offset += 0.03) > 100) //Sets offset. Smaller the value smoother the movement.
+			offset = 0;
+	}, 10); //Time in ms. Increases/decreases the speed of the marker movement on decrement/increment of 1 respectively. values should not be less than 1.
+	poly.push(line);
+	poly.push(decorator);
+	map.fitBounds(line.getBounds());
+});
+$(".drawRepeatedPatternOnPolyline").click(function() {
+	removePolyline();
+	var offset = 0; //intial offset value
+
+	//Polyline css
+	var linecss = {
+		color: '#fd4000',
+		weight: 3,
+		opacity: 1
+	};
+	line = L.polyline(pp, linecss).addTo(map); //add polyline on map
+	decorator = L.polylineDecorator(line).addTo(map); //create a polyline decorator instance.
+	//offset and repeat can be each defined as a number,in pixels,or in percentage of the line's length,as a string
+	interval = window.setInterval(function() {
+		decorator.setPatterns([{
+			offset: offset + "%", //Start first marker from x offset.
+			repeat: 100, //repeat market at every 100 offset.
+			symbol: L.Symbol.arrowHead({
+				pixelSize: 20, //Size of arrow image
+				headAngle: 60, //Increases/decreases arrow angel. Default is 60.
+				polygon: true, //if set to false an arrow is added else a triangle shape arrow is added. Default is true.
+				pathOptions: {
+					color: '#303030', //arrow color
+					fillOpacity: 0, //0 for no fill
+					weight: 4 // arrow line width
+				}
+			})
+		}]);
+		if ((offset += 0.03) > 100) //Sets offset. Smaller the value smoother the movement.
+			offset = 0;
+	}, 10); //Time in ms. Increases/decreases the speed of the marker movement on decrement/increment of 1 respectively. values should not be less than 1.
+	poly.push(line);
+	poly.push(decorator);
+	map.fitBounds(line.getBounds());
+});
+
+
+$(".removePolyline").click(function() {
+	removePolyline();
+});
+
+function removePolyline() {
+	var polylength = poly.length;
+	if (polylength > 0) {
+		for (var i = 0; i < polylength; i++) {
+			if (poly[i] !== undefined) {
+				map.removeLayer(poly[i]);
+			}
+		}
+		poly = new Array();
+		window.clearInterval(interval);
+	}
+
+}
+  </script>
+		</body>
+</html>

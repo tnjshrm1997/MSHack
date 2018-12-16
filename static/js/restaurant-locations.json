@@ -1,0 +1,797 @@
+[
+  {
+    "HOTEL-NAME": "The Oberoi Cecil",
+    "ADDRESS": "Ambedkar ChowkChaura Maidan, Shimla - 171004, HIMACHAL PRADESH",
+    "STATE": "HIMACHAL PRADESH"
+  },
+  {
+    "HOTEL-NAME": "The Lalit Grand Palace",
+    "ADDRESS": "Gupkar Road, Srinagar, JAMMU AND KASHMIR",
+    "STATE": "JAMMU AND KASHMIR"
+  },
+  {
+    "HOTEL-NAME": "Hotel Fateh Prakash Palace",
+    "ADDRESS": "The City Palace Complex, Udaipur - 313001, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Shiv Niwas Palace",
+    "ADDRESS": "The City Palace ComplexUdaipur, Udaipur, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Savoy Hotel",
+    "ADDRESS": "77, Sylks Road, Ootacamund, TAMIL NADU",
+    "STATE": "TAMIL NADU"
+  },
+  {
+    "HOTEL-NAME": "Raheem Residency",
+    "ADDRESS": "20/1100Beach Road, Alleppey West - 688 012, KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Noor Us Sabah Palace",
+    "ADDRESS": "V.I.P.RoadKoh-E-Fiza, Bhopal - 462001, MADHYA PRADESH",
+    "STATE": "MADHYA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "The Panjim Inn",
+    "ADDRESS": "31-ST JANUARY ROAD, FONTAINHAS, PANAJI, Panaji , GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "Balaram Palace Resort",
+    "ADDRESS": "Chitrassani Village,off Abu Palanpur Highway No.14 Banaskantha, BANASKANTHA, GUJARAT",
+    "STATE": "GUJARAT"
+  },
+  {
+    "HOTEL-NAME": "Nilambag Palace Hotel",
+    "ADDRESS": "Bhavnagar, Bhavnagar, GUJARAT",
+    "STATE": "GUJARAT"
+  },
+  {
+    "HOTEL-NAME": "The Fort Ramgarh",
+    "ADDRESS": "Ramgarh, Panchkula On NH - 73 Delhi Shimla Highway, Near Chandigarh, Panchkula Distt., HARYANA",
+    "STATE": "HARYANA"
+  },
+  {
+    "HOTEL-NAME": "The Judges Court",
+    "ADDRESS": "Heritage VillageParagpur, Distt. - Kangra - 177107, HIMACHAL PRADESH",
+    "STATE": "HIMACHAL PRADESH"
+  },
+  {
+    "HOTEL-NAME": "The Palace",
+    "ADDRESS": "Chail, Solan,HIMACHAL PRADESH",
+    "STATE": "HIMACHAL PRADESH"
+  },
+  {
+    "HOTEL-NAME": "The Castle Naggar",
+    "ADDRESS": "Naggar, Distt. Kullu - 175130, HIMACHAL PRADESH",
+    "STATE": "HIMACHAL PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Hotel Cherthala House",
+    "ADDRESS": "Court JunctionEast of P.M.C. - 5, cherthala - 688 524, KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Heritaga Methanam",
+    "ADDRESS": "K P XI / 298Near Perumpadappu, Kumbalanghi Bridge, Kumbalanghi P.O., Kochi - 682 007, KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Old Lighthouse Bristow Hotel",
+    "ADDRESS": "Beach Road Next to SBI Training Center Fort Kochi , Cochin , KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Hotel Le Colonial",
+    "ADDRESS": "1/215, Church Road, Vasco-da-Gama Square, Fort Cochin , KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Kunnathur Mana Ayurveda Heritage",
+    "ADDRESS": "Door No.VIII/666 Punnayurkulam P.O. Thrissur Dist, Kerala, KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Old Harbour Hotel",
+    "ADDRESS": "No-1/328, Tower Road, Fort Kochi , Kochi , KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Coconut Lagoon",
+    "ADDRESS": "P.O. Box No. 2Kumarakom, Kottayam - 686563, KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Beach Hotel",
+    "ADDRESS": "(Beach Heritage Inn (P) Ltd.)Beach Road, Kozhikode - 673032, KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Palakkad Heritage Hotels",
+    "ADDRESS": "Koduvayur P.O.Palakkad, Dist., KERALA ",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Somatheeram Ayurvedic Beach Resort (P) Ltd.",
+    "ADDRESS": "P.O. ChowaraVia Balaramapuram, Thiruvananthapuram - 695501, KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "The Hillway Heritage",
+    "ADDRESS": "Opp. Police Station, State Highway - 1Kilimanoor P.O., Thiruvananthapuram - 695601, KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Ahilya Fort",
+    "ADDRESS": "Ahilya Fort, Maheshwar, W Nimar , Bhopal , MADHYA PRADESH",
+    "STATE": "MADHYA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Hotel Rock End Manor",
+    "ADDRESS": "Pachmarhi Distt. ,HOSHANGABAD , MADHYA PRADESH",
+    "STATE": "MADHYA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Satpura Retreat",
+    "ADDRESS": "Pachmarhi, Dist. Hosangabad, MADHYA PRADESH",
+    "STATE": "MADHYA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Hotel Sheesh Mahal",
+    "ADDRESS": "MPSTDC, Orchha, Tikamgarh Dist. , MADHYA PRADESH",
+    "STATE": "MADHYA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Jehan Numa Palace Hotel",
+    "ADDRESS": "157, SHAMLA HILL(M.P) , Bhopal , MADHYA PRADESH",
+    "STATE": "MADHYA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "LE DUPLEIX",
+    "ADDRESS": "(unit of auberge Heritage Hotels) 5, CASERNE STREET , Pondicherry, PONDICHERRY",
+    "STATE": "PONDICHERRY"
+  },
+  {
+    "HOTEL-NAME": "Calve",
+    "ADDRESS": "A Heritage HotelOld No. 36, New No. 44, Vysial Street, Puducherry - 605 001, PUDUCHERRY",
+    "STATE": ""
+  },
+  {
+    "HOTEL-NAME": "Welcome Heritage, Khimsar Fort",
+    "ADDRESS": "Khimsar, RAJASTHAN ",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "The Bagh",
+    "ADDRESS": "Agra Achnara Road Pucca Bagh Bharatpur, Bharatpur, RAJASTHAN ",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Gajner Palace",
+    "ADDRESS": "P.O. GajnerTehsil : Kolayat, Bikaner - 334001, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "The Laxmi Niwas Palace",
+    "ADDRESS": "(A Unit of Golden Triangle Fort and Palace Pvt. Ltd.) Dr. Karni Singhji Road ,Bikaner ,RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Chomu Palace",
+    "ADDRESS": "Near Main ChomuBus Stand, Chomu - 303702, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Bissau Palace",
+    "ADDRESS": "Outside Chandpole Gate , Jaipur, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Deogarh Resorts",
+    "ADDRESS": "Deogarh MahalP.O. Deogarh Madariya, Distt. Rajsamand - 313331, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Shikarbadi Hotel",
+    "ADDRESS": "Goverdhan Vilas, Udaipur - 313001, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Welcom Heritage - Koolwal Kothi",
+    "ADDRESS": "House No. 40,Near Government Hospital RoadNawal Garh District, Jhunjhunu, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Ajit Bhawan",
+    "ADDRESS": "Near Circuit House, Jodhpur - 342 006, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Hotel Samode Palace",
+    "ADDRESS": "Village Samode, Dist. Jaipur - 303806, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Raj Niwas Palace",
+    "ADDRESS": "National Highway-3, Dholpur - 328 001, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Hotel Castle Mandawa Pvt.Ltd.",
+    "ADDRESS": "MandawaJhunjhunu District, Shekhawati - 333704, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Rohet Garh",
+    "ADDRESS": "Village P.O RohetDistt. Pali, Rajasthan, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Lake Pichola Hotel",
+    "ADDRESS": "Piplia Haveli, Out Side ChandpoleUdaipur, Rajasthan, Udaipur, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "The Ramgarh Lodge",
+    "ADDRESS": "Ramgarh LakeJamwa Ramgarh, Jaipur - 303109, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Hotel Indra Villas",
+    "ADDRESS": "A unit of Desert Heritage Resorts Pvt. Ltd. Ward No.2, Village Alsisar , JHUNJHUNU , RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Singhasan Haveli",
+    "ADDRESS": "Goenka Chowk, Mandawa,Dist., JHUNJHUNU, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Fort Khejarla",
+    "ADDRESS": "(Aunit of Bhandari Heritage Pvt. Ltd.)Village Khejarla, Via Bilara, Distt. Jodhpur - 342601, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Sardargarh Heritage Hotel",
+    "ADDRESS": "Sardargarh Fort, Village-Lawa Sardargarh Sardargarh, Dist:-Rajsamand , Rajsamand , RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "The Sawai Madhopur Lodge",
+    "ADDRESS": "Ranthambore National Park Road, Sawai Madhopur - 302 005, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Karni Bhawan Palace",
+    "ADDRESS": "Gandhi Colony Bikaner ,Bikaner ,RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Norkhill Hotel",
+    "ADDRESS": "Stadium Road, Gangtok , SIKKIM",
+    "STATE": "SIKKIM"
+  },
+  {
+    "HOTEL-NAME": "Visalam",
+    "ADDRESS": "7/1/143 LOCAL FUND ROAD, KANADUKATHAN KARAIKUDI, TAMIL NADU, KARAIKUDI, TAMIL NADU",
+    "STATE": "TAMIL NADU"
+  },
+  {
+    "HOTEL-NAME": "Hotel Fairhavens Holiday Home",
+    "ADDRESS": "Adacent to Head Post Office Mallital, Nainital, UTTARAKHAND",
+    "STATE": "UTTARAKHAND"
+  },
+  {
+    "HOTEL-NAME": "The Naini Retreat",
+    "ADDRESS": "Ayarapatta Sloppes, Nainital - 263001, UTTARAKHAND",
+    "STATE": "UTTARAKHAND"
+  },
+  {
+    "HOTEL-NAME": "The Elgin Hotel",
+    "ADDRESS": "18, H.D. Lama Road, P.O. Darjeeling, WEST BENGAL",
+    "STATE": "WEST BENGAL"
+  },
+  {
+    "HOTEL-NAME": "Taj Falaknuma Palace",
+    "ADDRESS": "Engine Bowli, Falaknuma , Hyderabad, ANDHRA PRADESH",
+    "STATE": "ANDHRA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "ITC HOTEL KAKATIYA",
+    "ADDRESS": "6-3-1187,BEGUMPETnull, Hyderabad, ANDHRA PRADESH",
+    "STATE": "ANDHRA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Eros Hotel Managed by Hilton",
+    "ADDRESS": "S-1American Plaza, International Trade Tower, Nehru Place, New Delhi - 110 019, DELHI",
+    "STATE": "DELHI"
+  },
+  {
+    "HOTEL-NAME": "The Ashok",
+    "ADDRESS": "50-BChanakyapuri, New Delhi - 110021, DELHI",
+    "STATE": "DELHI"
+  },
+  {
+    "HOTEL-NAME": "Hotel Imperial",
+    "ADDRESS": "Janpath, New Delhi - 110001, DELHI",
+    "STATE": "DELHI"
+  },
+  {
+    "HOTEL-NAME": "Hyatt Regency Delhi",
+    "ADDRESS": "Bhikaji Cama Place, New Delhi - 110066, DELHI",
+    "STATE": "DELHI"
+  },
+  {
+    "HOTEL-NAME": "ITC-The Maurya",
+    "ADDRESS": "ITC LimitedDiplomatic Enclave, New Delhi - 110021, DELHI",
+    "STATE": "DELHI"
+  },
+  {
+    "HOTEL-NAME": "Le Meridien Hotel",
+    "ADDRESS": "8, Windsor Place Janpath, New Delhinull, New Delhi, DELHI",
+    "STATE": "DELHI"
+  },
+  {
+    "HOTEL-NAME": "Taj Palace Hotel",
+    "ADDRESS": "Sardar Patel Marg , New Delhi ,DELHI",
+    "STATE": "DELHI"
+  },
+  {
+    "HOTEL-NAME": "The Lalit",
+    "ADDRESS": "Barakhamba AvenueConnaught Place,New Delhi - 110001, DELHI",
+    "STATE": "DELHI"
+  },
+  {
+    "HOTEL-NAME": "The Oberoi -  New Delhi",
+    "ADDRESS": "Dr. Zakir Hussain Marg, New Delhi - 110003,DELHI",
+    "STATE": "DELHI"
+  },
+  {
+    "HOTEL-NAME": "Aman, New Delhi",
+    "ADDRESS": "Lodhi Road, New Delhi - 110003, DELHI",
+    "STATE": "DELHI"
+  },
+  {
+    "HOTEL-NAME": "The Hotel Leela Palace Kempinski",
+    "ADDRESS": "Diplomatic Enclave, New Delhi - 110023,DELHI, National Highway No. 8, New Delhi-110037, DELHI",
+    "STATE": "DELHI"
+  },
+  {
+    "HOTEL-NAME": "Riviera De Goa Resort",
+    "ADDRESS": "Shimer VaddoXimer, Arpora - 403 518, GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "Vivanta by Taj - Panaji",
+    "ADDRESS": "Off. D.B. Bandodkar RoadSt. Inez, Panaji - 403001, GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "Vivanta by Taj - Holiday",
+    "ADDRESS": "(Earlier known as The Taj Holiday Village)Dando, Candolim, Bardez - 403 515, GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "Bell Tower Resorts Pvt.Ltd.",
+    "ADDRESS": "Bell Tower Resorts Pvt.Ltd. (Retreat by Zuri) Pedda, Uttor Doxi, Varca Salcatte-Goa-403721 , Salcete , GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "Hotel Ramada Caravela Beach Resort",
+    "ADDRESS": "Varca Beach, Salcete - 403721, GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "Vivanta By Taj- Fort Aguada",
+    "ADDRESS": "Sinquerim, Bardez - 403519, GOA ",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "Th Lalit Golf & Spa Resort Goa",
+    "ADDRESS": "(Bharat Hotels Ltd.)Raj Baga,Canacona, GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "Resort Rio",
+    "ADDRESS": "Resort Rio, Tambudki,Arpora, Bardez, GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "Hotel Cidade de Goa",
+    "ADDRESS": "(Unit of Fomento Resorts & Hotels Ltd.), Vainguinim Beach - 403004, GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "Majorda Beach Resort",
+    "ADDRESS": "MajordaSalcette, Goa - 403713, GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "The Leela Kempinski, Goa",
+    "ADDRESS": "MoborCavelossim, Salcette - 403731, GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "Hotel Trident - Gurgaon",
+    "ADDRESS": "Plot No. 443, Udyog ViharPhase - V, Gurgaon - 122016, HARYANA",
+    "STATE": "HARYANA"
+  },
+  {
+    "HOTEL-NAME": "The Leela Kempinski -  Gurgaon",
+    "ADDRESS": "(Ambience Hotels & Resorts Ltd.) Village Nathupur, N.H.-8 Gurgaon, Gurgaon, HARYANA",
+    "STATE": "HARYANA"
+  },
+  {
+    "HOTEL-NAME": "The Bristol Hotel",
+    "ADDRESS": "Adjacent to DLFQutab Enclave Phase - 1, Gurgaon - 122002, HARYANA",
+    "STATE": "HARYANA"
+  },
+  {
+    "HOTEL-NAME": "Wildflower Hall",
+    "ADDRESS": "(Mashobara Resort Limited, A Unit of EIH Limited)Chharabra, Shimla - 171 012, HIMACHAL PRADESH",
+    "STATE": "HIMACHAL PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Vivanta by Taj -  Whitefield",
+    "ADDRESS": "ITBP Whitefield, Bangalore - 560066, KARNATAKA",
+    "STATE": "KARNATAKA"
+  },
+  {
+    "HOTEL-NAME": "Hotel Golden Palms Hotel & Spa",
+    "ADDRESS": "NO-31 & 32 GOLDEN PALMS AVENUE OFF TUMKUR ROAD BANGALORE,  KARNATAKA",
+    "STATE": "KARNATAKA"
+  },
+  {
+    "HOTEL-NAME": "ITC Hotel Windsor & Towers",
+    "ADDRESS": "WINDSOR SQUARE, 25 GOLF COURES ROAD, Bangalore , KARNATAKA",
+    "STATE": "KARNATAKA"
+  },
+  {
+    "HOTEL-NAME": "The Taj West End",
+    "ADDRESS": "Race Course Road Bangalore, KARNATAKA",
+    "STATE": "KARNATAKA"
+  },
+  {
+    "HOTEL-NAME": "Sheraton Banglore at Brigade Gateway",
+    "ADDRESS": "26/1, Rajajinagar ExtensionDr. Rajkumar Road, Malleswaram West, Bangalore, KARNATAKA",
+    "STATE": "KARNATAKA"
+  },
+  {
+    "HOTEL-NAME": "The Oberoi Bangalore",
+    "ADDRESS": "39 Mahatma Gandhi RoadBanglore-560001, Bangalore, KARNATAKA",
+    "STATE": "KARNATAKA"
+  },
+  {
+    "HOTEL-NAME": "Vivanta by Taj -  Bangalore",
+    "ADDRESS": "41/3M.G. Road, Bangalore - 560001, KARNATAKA",
+    "STATE": "KARNATAKA"
+  },
+  {
+    "HOTEL-NAME": "Park Plaza",
+    "ADDRESS": "NO. 5 Defence Colony,1st main, Indirangar, KARNATAKA",
+    "STATE": "KARNATAKA"
+  },
+  {
+    "HOTEL-NAME": "Dream Hotel Cochin",
+    "ADDRESS": "37/985, C&D, Sahodaran Ayyappan Road Elamkulam Jnction, Kadavanthara cochin-682020, Cochin, KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Vivanta by Taj - Bekal",
+    "ADDRESS": "A Unit of Khanna Hotels PVt. LTd. BRDC Site No. 5, Kappil Beach P.O. Udma West Kasaragod - 671319, Kasaragod , KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "The Lalit Resorts & Spa Bekal",
+    "ADDRESS": "Bevoori, Udma, Taluka: Hosedurgh Distt: Kasargod Kerala, Kasaragod , KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Vivanta By Taj - Kovalam",
+    "ADDRESS": "(Formerly known as Taj Green Cove Kovalam)G V Raja Vattappara Road, Kovalam, Thiruvananthapuram - 695 527, KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Vivanta by - Taj Malabar",
+    "ADDRESS": "Willingdon Island , Cochin , KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "The Raviz Kollam",
+    "ADDRESS": "Kollam Royal Park Hotel And Resorts P LtdMathilil, Kollam, KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "Kovalam Resort Private Limited",
+    "ADDRESS": "The Leela Kovalam,Kerala, Thiruvananthapuram, KERALA",
+    "STATE": "KERALA"
+  },
+  {
+    "HOTEL-NAME": "The Grand Temple View",
+    "ADDRESS": "Opp. Circuit House , Khajuraho , MADHYA PRADESH",
+    "STATE": "MADHYA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Hotel Chandela",
+    "ADDRESS": "Airport RoadDist. Chhatarpur, Khajuraho - 471606, MADHYA PRADESH",
+    "STATE": "MADHYA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Chalet Hotel",
+    "ADDRESS": "Plot no.39/1 6 to 15 Sector 30 AVashi Navi Mumbai, Mumbai, MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "Four Seasons Hotel",
+    "ADDRESS": "(Unit of Mogus Estates & Hotels Ltd.) Plot NO.114,Dr.E.Moses Road Worli, Mumbai, MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "HOTEL SAHARA STAR",
+    "ADDRESS": "DOMESTIC AIRPORT, VILE PARLE (E), MUMBAI , MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "Hyatt Regency Mumbai",
+    "ADDRESS": "Sahar Airport RoadAndheri (East), Mumbai - 400 099, MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "Le Royal Meridien",
+    "ADDRESS": "SAHAR AIRPORT ROAD ANDHERI (E) , Mumbai , MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "Sun-n-Sand Hotels Pvt. Ltd.",
+    "ADDRESS": "39Juhu Beach, Mumbai - 400 049, MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "The Taj Mahal Palace & Tower",
+    "ADDRESS": "Apollo Bunder , Mumbai , MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "Hotel Le Meridien",
+    "ADDRESS": "R.B.M. Road, Pune - 411001, MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "Hotel ITC Grand Central",
+    "ADDRESS": "287, Babasaheb Ambedkar RoadParel,Mumbai-400012, MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "The Leela Kempinski",
+    "ADDRESS": "Sahar, Mumbai - 400 059, MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "The Oberoi, Mumbai",
+    "ADDRESS": "Nariman Point, Mumbai - 400021, MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "The Westin Mumbai Garden City",
+    "ADDRESS": "Oberoi Garden City, International Business Park, Off Western Express Highway, Goregaon (East) , Mumbai , MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "Fariyas Resort, Lonavla",
+    "ADDRESS": "Frichley HillsTungarli, Lonavla - 410401, MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "Trident, Nariman Point",
+    "ADDRESS": "Nariman Point, Mumbai - 400 021, MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "Taj Lands End",
+    "ADDRESS": "B.J. RoadBand Stand, Bandra (West), Mumbai - 400050, MAHARASHTRA",
+    "STATE": "MAHARASHTRA"
+  },
+  {
+    "HOTEL-NAME": "Trident -  Bhubaneswar",
+    "ADDRESS": "CB - 1 Nayapalli, Bhubaneshwar , ORISSA",
+    "STATE": "ORISSA"
+  },
+  {
+    "HOTEL-NAME": "Hotel Mayfair Lagoon",
+    "ADDRESS": "8-BJaydev Vihar, Bhubaneswar, ORISSA",
+    "STATE": "ORISSA"
+  },
+  {
+    "HOTEL-NAME": "ISTA Amritsar",
+    "ADDRESS": "G.T. Road(Adjoining Alpha One City Centre), Amritsar - 143 001, PUNJAB",
+    "STATE": "PUNJAB"
+  },
+  {
+    "HOTEL-NAME": "Sheraton Rajputana Hotel",
+    "ADDRESS": "Palace Road, Jaipur-302006, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "The Oberoi Rajvilas",
+    "ADDRESS": "Goner Road, Jaipur - 303012, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "The Oberoi Udaivilas",
+    "ADDRESS": "Haridas Ji Ki Magri , Udaipur , RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Country Inn & Suites By Carlson",
+    "ADDRESS": "Country Inn & Suites By Carlson (A unit of Shivani Enclaves Pvt.,Khasa Kothi Circle M.I.Road, Jaipur, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "The Leela Palace Kempinski",
+    "ADDRESS": "P.O. Box No. 125Lake Pichola, Udaipur - 313 001, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "JAI MAHAL PALACE HOTEL",
+    "ADDRESS": "JACOB ROAD,CIVIL LINES, Jaipur, RAJASTHAN",
+    "STATE": "RAJASTHAN"
+  },
+  {
+    "HOTEL-NAME": "Mayfair Spa & Resort",
+    "ADDRESS": "(Unit of Mayfair Hotels & Resorts (Sikkim) Pvt. Ltd.)Lower Samdur Block, Ranipool - 737135, Gangtok, SIKKIM",
+    "STATE": "SIKKIM"
+  },
+  {
+    "HOTEL-NAME": "Taj Mount Road",
+    "ADDRESS": "No. 2Club House Road, Chennai - 600 002, TAMIL NADU",
+    "STATE": "TAMIL NADU"
+  },
+  {
+    "HOTEL-NAME": "THE PARK",
+    "ADDRESS": "UNIT :APEEJAY -SURRENDRA PARK HOTELS LTD 601, ANNA SALAI , Chennai, TAMIL NADU ",
+    "STATE": "TAMIL NADU"
+  },
+  {
+    "HOTEL-NAME": "Vivanta by Taj - Fishermans Cove",
+    "ADDRESS": "Covelong Beach, Kanchipuram Dist. - 603112, TAMIL NADU",
+    "STATE": "TAMIL NADU"
+  },
+  {
+    "HOTEL-NAME": "Taj Coromandel",
+    "ADDRESS": "37Mahatma Gandhi Salai, Nungambakkam, Chennai - 600 034, TAMIL NADU",
+    "STATE": "TAMIL NADU"
+  },
+  {
+    "HOTEL-NAME": "Le Royal Meridien Chennai",
+    "ADDRESS": "(Owned by Appu Hotels Limited)No. 1, G.S.T. Road, St. Thomas Mount, Chennai - 600 016, TAMIL NADU",
+    "STATE": "TAMIL NADU"
+  },
+  {
+    "HOTEL-NAME": "ITC The Mughal",
+    "ADDRESS": "Fatehabad RoadTajganj, Agra - 282 001, UTTAR PRADESH",
+    "STATE": "UTTAR PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Jaypee Greens Golf & Spa Resort",
+    "ADDRESS": "A division of Jaiprakash Associates Ltd. G-Block, Surajpur Kasna Road Gautam Budh Nagar, Greater Noida, UTTAR PRADESH",
+    "STATE": "UTTAR PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Vivanta by Taj",
+    "ADDRESS": "Vipin Khand Gomti Nagar , Lucknow , UTTAR PRADESH",
+    "STATE": "UTTAR PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Taj Ganges Varanasi",
+    "ADDRESS": "Nadesar Palace GraoundsNadesar, Varanasi - 221002, UTTAR PRADESH",
+    "STATE": "UTTAR PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Radisson Hotel",
+    "ADDRESS": "Taj East Gate Road, Agra - 282 001, UTTAR PRADESH",
+    "STATE": "UTTAR PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Radisson MBD Hotel",
+    "ADDRESS": "Plot No. L-2Sector - 18, Noida - 201 301, UTTAR PRADESH",
+    "STATE": "UTTAR PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Holiday Regency",
+    "ADDRESS": "Holiday Regency (A Unit of Omsons Holiday Inn Pvt. ltd)Om Enclave, (KM, Delhi Road , NH-24, Moradabad, UTTAR PRADESH",
+    "STATE": "UTTAR PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Jaypee Residency Manor",
+    "ADDRESS": "Barlowganj, Mussoorie, UTTARAKHAND",
+    "STATE": "UTTARAKHAND"
+  },
+  {
+    "HOTEL-NAME": "ITC Sonar",
+    "ADDRESS": "1, JBS Haldane AvenueOpp. Science City, Kolkata-700046, WEST BENGAL",
+    "STATE": "WEST BENGAL"
+  },
+  {
+    "HOTEL-NAME": "Hotel Ista Hyderabad",
+    "ADDRESS": "Plot No-7, Road No. 2I.T. Park, Nanakramguda, Gachibowali, Hyderabad - 500019, ANDHRA PRADESH",
+    "STATE": "ANDHRA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Hotel Novotel Hyderabad",
+    "ADDRESS": "Novoel & HIVV Complex, Near Hitech City , P.O Bag No-1101, Cyberabad Post Office, Hyderabad, ANDHRA PRADESH",
+    "STATE": "ANDHRA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Novotel Hyderabad Airport",
+    "ADDRESS": "GMR Hyderabad International Airport Ltd., Rajiv Gandhi International Airport Shamshabad, Ranga Reddy Dist , ANDHRA PRADESH",
+    "STATE": "ANDHRA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "The Gateway Hotel",
+    "ADDRESS": "Beach Road, Visakhapatnam , ANDHRA PRADESH",
+    "STATE": "ANDHRA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Taj Deccan - Hyderabad",
+    "ADDRESS": "Road No.1Banjara Hills, Hyderabad - 34, ANDHRA PRADESH",
+    "STATE": "ANDHRA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Leo Meridian Infrastructure",
+    "ADDRESS": "Bommaraspet (Village)Shamirpet Mandal, Ranga Reddy District, ANDHRA PRADESH",
+    "STATE": "ANDHRA PRADESH"
+  },
+  {
+    "HOTEL-NAME": "Hotel Mountview",
+    "ADDRESS": "Sector 10, Chandigarh, CHANDIGARH",
+    "STATE": "CHANDIGARH"
+  },
+  {
+    "HOTEL-NAME": "Hotel Crowne Plaza Today",
+    "ADDRESS": "Plot No. 1Community Centre, Phase 1, Okhla, New Delhi - 110 020, DELHI",
+    "STATE": "DELHI"
+  },
+  {
+    "HOTEL-NAME": "Vivanta by Taj Ambassador",
+    "ADDRESS": "Sujan Singh ParkCornwallis Road, New Delhi - 110003, DELHI",
+    "STATE": "DELHI"
+  },
+  {
+    "HOTEL-NAME": "Fortune Select Regina",
+    "ADDRESS": "376, Off. Fort Aquada Road , Candolim , GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "Bogmallo Beach Resort",
+    "ADDRESS": "P.O. Bogmallo, Goa - 403806, GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "DEVAAYA AYURVEDA SPA RESORT",
+    "ADDRESS": "DIWAR, ILHAS ,GOA , GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "Holiday Inn Resort",
+    "ADDRESS": "Mobor Beach Cavelossim Salcete,Goa, GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "The Crown Goa",
+    "ADDRESS": "(A unit of Vision Enterprises) Bairo Alto Dos Pilotos, Goa, GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "Hotel Neo Majestic",
+    "ADDRESS": "Plot No. 104/1APorvorim, North Goa, GOA",
+    "STATE": "GOA"
+  },
+  {
+    "HOTEL-NAME": "The Kenilworth Beach Resort & Spa",
+    "ADDRESS": "Utorda, Salcete - 403 713, GOA",
+    "STATE": "GOA"
+  }
+]
